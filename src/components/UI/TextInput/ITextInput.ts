@@ -8,5 +8,6 @@ export interface ITextInputProps extends React.HTMLAttributes<HTMLInputElement> 
 	maxlength?: number;
 	size?: number;
 	placeholder?: string;
-	readonly?: boolean;
+	readOnly?: boolean;
+	pattern?: string;
 }
